@@ -159,7 +159,7 @@ nav{
 
 .box-col{
   background-color:rgb(255, 255, 255);
-  border:1px solid rgba(136, 134, 134, 0.603);
+  /* border:1px solid rgba(136, 134, 134, 0.603); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,3 +187,54 @@ nav{
   
 }
 
+footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+  background: rgb(48, 48, 48);
+  padding: 20px 60px;
+}
+
+.f-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 300px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appraisal{
+  display: flex;
+  width: 85vw;
+  height: 80vh;
+  margin: 30px 10px;
+  margin-left: 85px;
+  background: #ffffff;
+}
+
+.appraisal>img{
+  margin: 40px;
+  border-top-left-radius: 50px;
+}
+
+.appraisal>div{
+  margin-top: 80px;
+}
+
+.appraisal>div>p{
+  padding: 50px;
+}
+.appraisal>div>h2{
+  padding-left: 26px;
+}
